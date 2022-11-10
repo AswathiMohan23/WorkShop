@@ -18,8 +18,10 @@ public class AddressBookMethods {
         System.out.println("enter the state : ");
         addressBook.add(sc.next());
     }
-    static void printing(ArrayList<String> addressBook, String number) {
-        System.out.println("\n===================== printing the addressBook of "+number+" person ====================");
+
+
+    public void displayTheAddressBook(ArrayList<String> addressBook) {
+        System.out.println("\n===================== printing the addressBook  ====================");
         System.out.println(addressBook);
     }
 }
